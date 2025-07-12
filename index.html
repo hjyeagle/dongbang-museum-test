@@ -619,6 +619,38 @@
                 min-width: 70px;
             }
         }
+        /* ============ 동방예술관 건물 이미지 스타일 시작 ============ */
+        .museum-building-section {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .museum-building-img {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease;
+            border: 3px solid #8B4513;
+        }
+
+        .museum-building-img:hover {
+            transform: scale(1.02);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+        }
+
+        @media (max-width: 768px) {
+            .museum-building-img {
+                max-width: 100%;
+                margin: 0 15px;
+            }
+            
+            .museum-building-section {
+                margin-top: 30px;
+            }
+        }
+/* ============ 동방예술관 건물 이미지 스타일 끝 ============ */
     </style>
 </head>
 <body>
@@ -653,6 +685,12 @@
                     <p>📖 <strong>목표:</strong> 소장유물 검증비용, 도록 제작비용 및 동방예술관 건립기금 마련을 위한 크라우드펀딩</p>
                     <p>🤝 <strong>협력:</strong> 인플루언서, 순환전시 스폰서 기업, 유물감정기관과의 연계</p>
                     <p>🏺 <strong>소장품:</strong> 한국고대유물로 추정되는 동방예술관 소장예물 (9개 카테고리)</p>
+                    <!-- ============ 동방예술관 건물 이미지 추가 시작 ============ -->
+                <div class="museum-building-section">
+                    <img src="./images/dongbang_intro.jpg" alt="동방예술관 건립 프로젝트" class="museum-building-img">
+                </div>
+            </div>
+<!-- ============ 동방예술관 건물 이미지 추가 끝 ============ -->
                 </div>
 
                 <div class="sns-section">
