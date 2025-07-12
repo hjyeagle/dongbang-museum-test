@@ -619,38 +619,38 @@
                 min-width: 70px;
             }
         }
-        /* ============ 동방예술관 건물 이미지 스타일 시작 ============ */
+       /* ============ 동방예술관 건물 이미지 스타일 수정 시작 ============ */
         .museum-building-section {
-            margin-top: 40px;
+            margin-top: 30px;
             text-align: center;
         }
 
         .museum-building-img {
             width: 100%;
-            max-width: 800px;
+            max-width: 600px;  /* 800px → 600px로 축소 */
             height: auto;
             border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);  /* 그림자 줄임 */
             transition: transform 0.3s ease;
-            border: 3px solid #8B4513;
+            border: 2px solid #8B4513;  /* 테두리 줄임 */
         }
 
         .museum-building-img:hover {
-            transform: scale(1.02);
-            box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+            transform: scale(1.01);  /* 확대 효과 줄임 */
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
         }
 
         @media (max-width: 768px) {
             .museum-building-img {
-                max-width: 100%;
-                margin: 0 15px;
+                max-width: 90%;  /* 100% → 90%로 축소 */
+                margin: 0 auto;
             }
             
             .museum-building-section {
-                margin-top: 30px;
+                margin-top: 20px;  /* 여백 줄임 */
             }
         }
-/* ============ 동방예술관 건물 이미지 스타일 끝 ============ */
+/* ============ 동방예술관 건물 이미지 스타일 수정 끝 ============ */
     </style>
 </head>
 <body>
